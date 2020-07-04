@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA00A1E72466B10B00399501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA00A1E62466B10B00399501 /* Main.storyboard */; };
+		FA6B653224205CB400C645C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B653124205CB400C645C1 /* AppDelegate.swift */; };
+		FA6B653424205CB400C645C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B653324205CB400C645C1 /* SceneDelegate.swift */; };
+		FA6B653624205CB400C645C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B653524205CB400C645C1 /* ViewController.swift */; };
+		FA6B653C24205CB400C645C1 /* Dice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA6B653A24205CB400C645C1 /* Dice.xcdatamodeld */; };
+		FA6B653E24205CB900C645C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6B653D24205CB900C645C1 /* Assets.xcassets */; };
+		FA6B654C24205CB900C645C1 /* DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B654B24205CB900C645C1 /* DiceTests.swift */; };
+		FA6B655724205CB900C645C1 /* DiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B655624205CB900C645C1 /* DiceUITests.swift */; };
+		FA83B9C4242365380073AFAB /* BaiCao.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA83B9C3242365380073AFAB /* BaiCao.swift */; };
+		FAB4886124767C4100607E62 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4885F24767C4100607E62 /* SampleViewController.swift */; };
+		FAB4886224767C4100607E62 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB4886024767C4100607E62 /* SampleViewController.xib */; };
+		FADF01D024245830003A2B37 /* ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF01CF24245830003A2B37 /* ViewController_2.swift */; };
+		FADF01E12424A1C7003A2B37 /* ViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF01E02424A1C7003A2B37 /* ViewController_3.swift */; };
+		FADF01E32424A763003A2B37 /* ViewController_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF01E22424A763003A2B37 /* ViewController_4.swift */; };
+		FADF01E52424C704003A2B37 /* If_I_Had_a_Chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FADF01E42424C704003A2B37 /* If_I_Had_a_Chicken.mp3 */; };
+		FADF01E72424C74F003A2B37 /* ViewController_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF01E62424C74F003A2B37 /* ViewController_5.swift */; };
+		FAF1D525242858B10065000C /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1D524242858B10065000C /* MyTableViewCell.swift */; };
+		FAF1D5272428730C0065000C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1D5262428730C0065000C /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6B654824205CB900C645C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6B652624205CB400C645C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6B652D24205CB400C645C1;
+			remoteInfo = Dice;
+		};
+		FA6B655324205CB900C645C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6B652624205CB400C645C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6B652D24205CB400C645C1;
+			remoteInfo = Dice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA00A1E62466B10B00399501 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA6B652E24205CB400C645C1 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6B653124205CB400C645C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA6B653324205CB400C645C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA6B653524205CB400C645C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA6B653B24205CB400C645C1 /* Dice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dice.xcdatamodel; sourceTree = "<group>"; };
+		FA6B653D24205CB900C645C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6B654224205CB900C645C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6B654724205CB900C645C1 /* DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6B654B24205CB900C645C1 /* DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTests.swift; sourceTree = "<group>"; };
+		FA6B654D24205CB900C645C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6B655224205CB900C645C1 /* DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6B655624205CB900C645C1 /* DiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceUITests.swift; sourceTree = "<group>"; };
+		FA6B655824205CB900C645C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6B656424205CC600C645C1 /* Dice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dice.entitlements; sourceTree = "<group>"; };
+		FA83B9C3242365380073AFAB /* BaiCao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiCao.swift; sourceTree = "<group>"; };
+		FAB4885F24767C4100607E62 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		FAB4886024767C4100607E62 /* SampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		FADF01CF24245830003A2B37 /* ViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_2.swift; sourceTree = "<group>"; };
+		FADF01D42424638C003A2B37 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		FADF01D52424638C003A2B37 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		FADF01D62424638C003A2B37 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		FADF01D72424638C003A2B37 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		FADF01D82424638C003A2B37 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		FADF01D92424638C003A2B37 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		FADF01DA2424638C003A2B37 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		FADF01DB2424638C003A2B37 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FADF01DC2424638C003A2B37 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FADF01DD2424638C003A2B37 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		FADF01E02424A1C7003A2B37 /* ViewController_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_3.swift; sourceTree = "<group>"; };
+		FADF01E22424A763003A2B37 /* ViewController_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_4.swift; sourceTree = "<group>"; };
+		FADF01E42424C704003A2B37 /* If_I_Had_a_Chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = If_I_Had_a_Chicken.mp3; path = ../../If_I_Had_a_Chicken.mp3; sourceTree = "<group>"; };
+		FADF01E62424C74F003A2B37 /* ViewController_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_5.swift; sourceTree = "<group>"; };
+		FAF1D524242858B10065000C /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		FAF1D5262428730C0065000C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6B652B24205CB400C645C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B654424205CB900C645C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B654F24205CB900C645C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6B652524205CB400C645C1 = {
+			isa = PBXGroup;
+			children = (
+				FA6B653024205CB400C645C1 /* Dice */,
+				FA6B654A24205CB900C645C1 /* DiceTests */,
+				FA6B655524205CB900C645C1 /* DiceUITests */,
+				FA6B652F24205CB400C645C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6B652F24205CB400C645C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B652E24205CB400C645C1 /* Dice.app */,
+				FA6B654724205CB900C645C1 /* DiceTests.xctest */,
+				FA6B655224205CB900C645C1 /* DiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6B653024205CB400C645C1 /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				FADF01E42424C704003A2B37 /* If_I_Had_a_Chicken.mp3 */,
+				FADF01D32424638C003A2B37 /* mon_an */,
+				FA6B656424205CC600C645C1 /* Dice.entitlements */,
+				FA6B653124205CB400C645C1 /* AppDelegate.swift */,
+				FA6B653324205CB400C645C1 /* SceneDelegate.swift */,
+				FA6B653524205CB400C645C1 /* ViewController.swift */,
+				FA00A1E62466B10B00399501 /* Main.storyboard */,
+				FA6B653D24205CB900C645C1 /* Assets.xcassets */,
+				FA6B654224205CB900C645C1 /* Info.plist */,
+				FA6B653A24205CB400C645C1 /* Dice.xcdatamodeld */,
+				FA83B9C3242365380073AFAB /* BaiCao.swift */,
+				FADF01CF24245830003A2B37 /* ViewController_2.swift */,
+				FADF01E02424A1C7003A2B37 /* ViewController_3.swift */,
+				FADF01E22424A763003A2B37 /* ViewController_4.swift */,
+				FADF01E62424C74F003A2B37 /* ViewController_5.swift */,
+				FAF1D5262428730C0065000C /* DetailViewController.swift */,
+				FAF1D524242858B10065000C /* MyTableViewCell.swift */,
+				FAB4885F24767C4100607E62 /* SampleViewController.swift */,
+				FAB4886024767C4100607E62 /* SampleViewController.xib */,
+			);
+			path = Dice;
+			sourceTree = "<group>";
+		};
+		FA6B654A24205CB900C645C1 /* DiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B654B24205CB900C645C1 /* DiceTests.swift */,
+				FA6B654D24205CB900C645C1 /* Info.plist */,
+			);
+			path = DiceTests;
+			sourceTree = "<group>";
+		};
+		FA6B655524205CB900C645C1 /* DiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B655624205CB900C645C1 /* DiceUITests.swift */,
+				FA6B655824205CB900C645C1 /* Info.plist */,
+			);
+			path = DiceUITests;
+			sourceTree = "<group>";
+		};
+		FADF01D32424638C003A2B37 /* mon_an */ = {
+			isa = PBXGroup;
+			children = (
+				FADF01D42424638C003A2B37 /* 8.jpg */,
+				FADF01D52424638C003A2B37 /* 9.jpg */,
+				FADF01D62424638C003A2B37 /* 10.jpg */,
+				FADF01D72424638C003A2B37 /* 4.jpg */,
+				FADF01D82424638C003A2B37 /* 5.jpg */,
+				FADF01D92424638C003A2B37 /* 7.jpg */,
+				FADF01DA2424638C003A2B37 /* 6.jpg */,
+				FADF01DB2424638C003A2B37 /* 2.jpg */,
+				FADF01DC2424638C003A2B37 /* 3.jpg */,
+				FADF01DD2424638C003A2B37 /* 1.jpg */,
+			);
+			path = mon_an;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6B652D24205CB400C645C1 /* Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6B655B24205CB900C645C1 /* Build configuration list for PBXNativeTarget "Dice" */;
+			buildPhases = (
+				FA6B652A24205CB400C645C1 /* Sources */,
+				FA6B652B24205CB400C645C1 /* Frameworks */,
+				FA6B652C24205CB400C645C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dice;
+			productName = Dice;
+			productReference = FA6B652E24205CB400C645C1 /* Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6B654624205CB900C645C1 /* DiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6B655E24205CB900C645C1 /* Build configuration list for PBXNativeTarget "DiceTests" */;
+			buildPhases = (
+				FA6B654324205CB900C645C1 /* Sources */,
+				FA6B654424205CB900C645C1 /* Frameworks */,
+				FA6B654524205CB900C645C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6B654924205CB900C645C1 /* PBXTargetDependency */,
+			);
+			name = DiceTests;
+			productName = DiceTests;
+			productReference = FA6B654724205CB900C645C1 /* DiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA6B655124205CB900C645C1 /* DiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6B656124205CB900C645C1 /* Build configuration list for PBXNativeTarget "DiceUITests" */;
+			buildPhases = (
+				FA6B654E24205CB900C645C1 /* Sources */,
+				FA6B654F24205CB900C645C1 /* Frameworks */,
+				FA6B655024205CB900C645C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6B655424205CB900C645C1 /* PBXTargetDependency */,
+			);
+			name = DiceUITests;
+			productName = DiceUITests;
+			productReference = FA6B655224205CB900C645C1 /* DiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6B652624205CB400C645C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Do Huy Nam";
+				TargetAttributes = {
+					FA6B652D24205CB400C645C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FA6B654624205CB900C645C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA6B652D24205CB400C645C1;
+					};
+					FA6B655124205CB900C645C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA6B652D24205CB400C645C1;
+					};
+				};
+			};
+			buildConfigurationList = FA6B652924205CB400C645C1 /* Build configuration list for PBXProject "Dice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6B652524205CB400C645C1;
+			productRefGroup = FA6B652F24205CB400C645C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6B652D24205CB400C645C1 /* Dice */,
+				FA6B654624205CB900C645C1 /* DiceTests */,
+				FA6B655124205CB900C645C1 /* DiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6B652C24205CB400C645C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA00A1E72466B10B00399501 /* Main.storyboard in Resources */,
+				FA6B653E24205CB900C645C1 /* Assets.xcassets in Resources */,
+				FAB4886224767C4100607E62 /* SampleViewController.xib in Resources */,
+				FADF01E52424C704003A2B37 /* If_I_Had_a_Chicken.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B654524205CB900C645C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B655024205CB900C645C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6B652A24205CB400C645C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1D5272428730C0065000C /* DetailViewController.swift in Sources */,
+				FA6B653624205CB400C645C1 /* ViewController.swift in Sources */,
+				FAB4886124767C4100607E62 /* SampleViewController.swift in Sources */,
+				FADF01E12424A1C7003A2B37 /* ViewController_3.swift in Sources */,
+				FADF01D024245830003A2B37 /* ViewController_2.swift in Sources */,
+				FAF1D525242858B10065000C /* MyTableViewCell.swift in Sources */,
+				FADF01E32424A763003A2B37 /* ViewController_4.swift in Sources */,
+				FA6B653224205CB400C645C1 /* AppDelegate.swift in Sources */,
+				FA83B9C4242365380073AFAB /* BaiCao.swift in Sources */,
+				FA6B653C24205CB400C645C1 /* Dice.xcdatamodeld in Sources */,
+				FADF01E72424C74F003A2B37 /* ViewController_5.swift in Sources */,
+				FA6B653424205CB400C645C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B654324205CB900C645C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6B654C24205CB900C645C1 /* DiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B654E24205CB900C645C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6B655724205CB900C645C1 /* DiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6B654924205CB900C645C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6B652D24205CB400C645C1 /* Dice */;
+			targetProxy = FA6B654824205CB900C645C1 /* PBXContainerItemProxy */;
+		};
+		FA6B655424205CB900C645C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6B652D24205CB400C645C1 /* Dice */;
+			targetProxy = FA6B655324205CB900C645C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA6B655924205CB900C645C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA6B655A24205CB900C645C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6B655C24205CB900C645C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Dice/Dice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 8X4U42XSQ3;
+				INFOPLIST_FILE = Dice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.viettel.com.vn.Dice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA6B655D24205CB900C645C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Dice/Dice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 8X4U42XSQ3;
+				INFOPLIST_FILE = Dice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.viettel.com.vn.Dice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA6B655F24205CB900C645C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X4U42XSQ3;
+				INFOPLIST_FILE = DiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.viettel.com.vn.DiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice.app/Dice";
+			};
+			name = Debug;
+		};
+		FA6B656024205CB900C645C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X4U42XSQ3;
+				INFOPLIST_FILE = DiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.viettel.com.vn.DiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice.app/Dice";
+			};
+			name = Release;
+		};
+		FA6B656224205CB900C645C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X4U42XSQ3;
+				INFOPLIST_FILE = DiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.viettel.com.vn.DiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dice;
+			};
+			name = Debug;
+		};
+		FA6B656324205CB900C645C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X4U42XSQ3;
+				INFOPLIST_FILE = DiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.viettel.com.vn.DiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6B652924205CB400C645C1 /* Build configuration list for PBXProject "Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6B655924205CB900C645C1 /* Debug */,
+				FA6B655A24205CB900C645C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6B655B24205CB900C645C1 /* Build configuration list for PBXNativeTarget "Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6B655C24205CB900C645C1 /* Debug */,
+				FA6B655D24205CB900C645C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6B655E24205CB900C645C1 /* Build configuration list for PBXNativeTarget "DiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6B655F24205CB900C645C1 /* Debug */,
+				FA6B656024205CB900C645C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6B656124205CB900C645C1 /* Build configuration list for PBXNativeTarget "DiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6B656224205CB900C645C1 /* Debug */,
+				FA6B656324205CB900C645C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA6B653A24205CB400C645C1 /* Dice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA6B653B24205CB400C645C1 /* Dice.xcdatamodel */,
+			);
+			currentVersion = FA6B653B24205CB400C645C1 /* Dice.xcdatamodel */;
+			path = Dice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA6B652624205CB400C645C1 /* Project object */;
+}
